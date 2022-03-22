@@ -1,30 +1,30 @@
 const items = document.getElementById('items')
 
 
-// const alumno1 = {
-//   name: 'Amure, Angel',
-//   asistencias: 1,
-//   modulos: 0,
-//   evaluaciones: 0,
-//   recuperatorios: 0,
-//   puntaje: 1
-// }
-// const alumno2 = {
-//   name: 'Cuenca, Agostina',
-//   asistencias: 1,
-//   modulos: 0,
-//   evaluaciones: 0,
-//   recuperatorios: 0,
-//   puntaje: 1
-// }
-// const alumno3 = {
-//   name: 'Dotto, Matias',
-//   asistencias: 1,
-//   modulos: 0,
-//   evaluaciones: 0,
-//   recuperatorios: 0,
-//   puntaje: 1
-// }
+const alumno1 = {
+  name: 'Aragon, Carlos',
+  asistencias: 8,
+  modulos: 10,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 18
+}
+const alumno2 = {
+  name: 'Cuenca, Ricardo',
+  asistencias: 5,
+  modulos: 5,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 10
+}
+const alumno3 = {
+  name: 'Ratchet, Marta',
+  asistencias: 1,
+  modulos: 0,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 1
+}
 // const alumno4 = {
 //   name: 'Lucero, Morena',
 //   asistencias: 1,
