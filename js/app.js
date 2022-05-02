@@ -141,10 +141,10 @@ const alumno17 ={
   name: 'Leone, Joaquin',
   asistencias: 10,
   tbc:7,
-  modulos: 'N/E',
+  modulos: 5,
   evaluaciones: 'Des',
   recuperatorios: 0,
-  puntaje: 17
+  puntaje: 22
 }
 const alumno18 ={
   name: 'Liendo, Kiara',
@@ -364,6 +364,15 @@ items.innerHTML = `
 </tr>
 
 <tr>
+  <td><i class="bi-trophy-fill"></i> ${alumno17.name}</td>
+  <td>${alumno17.asistencias}</td>
+  <td>${alumno17.tbc}</td>
+  <td>${alumno17.modulos}</td>
+  <td>${alumno17.evaluaciones}</td>
+  <td>${alumno17.recuperatorios}</td>
+  <td>${alumno17.puntaje}</td>
+</tr>
+<tr>
   <td><i class="bi-trophy-fill"></i> ${alumno20.name}</td>
   <td>${alumno20.asistencias}</td>
   <td>${alumno20.tbc}</td>
@@ -429,15 +438,6 @@ items.innerHTML = `
   <td>${alumno19.puntaje}</td>
 </tr>
 
-<tr>
-  <td><i class="bi-trophy-fill"></i> ${alumno17.name}</td>
-  <td>${alumno17.asistencias}</td>
-  <td>${alumno17.tbc}</td>
-  <td>${alumno17.modulos}</td>
-  <td>${alumno17.evaluaciones}</td>
-  <td>${alumno17.recuperatorios}</td>
-  <td>${alumno17.puntaje}</td>
-</tr>
 
 <tr>
   <td><i class="bi-trophy-fill"></i> ${alumno2.name}</td>
